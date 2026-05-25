@@ -1,10 +1,4 @@
 # maze
-<<<<<<< HEAD
 Wilson's algorithm for maze generation. Uniformly samples the distribution of all mazes by repeating loop-erased random walks (LERW), perhaps making it the "fairest" maze generation algorithm. The output is a uniform spanning tree of all the cells in the maze. 
 
 LERWs are, surprisingly, deeply connected to physics. They have distinct statistics from their cousin, self-avoiding random walks, as they belong to different universality classes (from statistical mechanics). There's some connection to conformal field theories in the 2D scaling limit, but I haven't learned QFT yet so idk what this means. By the way, the self-avoiding case sounds simpler than loop erasure but in actuality it's way harder because it's non-Markovian, aka the next step depends on all previous steps--very little has been proven about them, so the only way to derive scaling values is through simulation. They are important for modeling polymer chains.
-=======
-Wilson's algorithm for maze generation. Uniformly samples the distribution of all mazes by repeating loop-erased random walks (LERW), perhaps making it the "fairest" maze generation algorithm. The output is a uniform spanning tree of all the cells in the maze.
-
-LERWs are, surprisingly, deeply connected to physics. They have distinct statistics from their cousin, self-avoiding random walks, as they belong to different universality classes (from statistical mechanics). There's some connection to conformal field theories in the 2D scaling limit, but I haven't learned QFT yet so idk what this means. By the way, the self-avoiding case sounds simpler than loop erasure but in actuality it's way harder because it's non-Markovian, aka the next step depends on all previous steps--very little has been proven about them, so the only way to derive scaling values is through simulation. They are important for modeling polymer chains.
->>>>>>> a50b4ee (dasda)
