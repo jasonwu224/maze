@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(perl -e 'alarm 5; exec @ARGV' python3 /Users/jasonwu/Code/local/maze/main.py)",
-      "Bash(echo \"exit=$?\")"
-    ]
-  }
-}
